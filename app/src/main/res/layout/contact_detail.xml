@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ecf0f1">
+
+        <TextView
+            style="@style/segment_title"
+            android:text="@string/name_title"
+            android:paddingTop="8dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/text_view_detail"
+            android:id="@+id/name_id"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            style="@style/card_layout">
+
+            <LinearLayout
+                style="@style/card_container">
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/prefix_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/prefix"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/first_name_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/first_name"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/mid_name_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/mid_name"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/last_name_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/last_name"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/suffix_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/suffix"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/nickname_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/nickname"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/segment_title"
+            android:text="@string/contact_title"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/text_view_detail"
+            android:id="@+id/contact_id"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            style="@style/card_layout">
+
+            <LinearLayout
+                style="@style/card_container">
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/email_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/email"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/phone_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/phone"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/mobile_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/mobile"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/segment_title"
+            android:text="@string/address_title"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/text_view_detail"
+            android:id="@+id/address_id"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            style="@style/card_layout">
+
+            <LinearLayout
+                style="@style/card_container">
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/street_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/street"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/street_2_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/street_2"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/city_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/city"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/province_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/province"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/country_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/country"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/postal_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/postal"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/segment_title"
+            android:text="@string/personal_title"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/text_view_detail"
+            android:id="@+id/personal_id"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            style="@style/card_layout">
+
+            <LinearLayout
+                style="@style/card_container">
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/birthday_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/birthday"
+                    android:editable="false"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/job_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/job"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/department_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/department"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/company_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/company"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/website_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/website"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    style="@style/text_view_detail"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/note_title"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/edit_text"
+                    android:id="@+id/note"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
